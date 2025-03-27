@@ -1,0 +1,30 @@
+first_name = "AdA"
+last_name = "LoVeLAce"
+print(first_name.lower() + " " + last_name.lower())
+print(first_name.title() + " " + last_name.title())
+print(first_name.upper() + " " + last_name.upper())
+print("        " + first_name.lower() + " " + last_name.lower())
+
+X, Y = "Bangladesh", "Barbados"
+palabras = [X, Y]
+primera_palabra = min(palabras)
+ultima_palabra = max(palabras)
+print(f"The result of {primera_palabra} comes first in the dictionary than {ultima_palabra} is True/False.")
+
+gasto_persona = 23.75
+pago = 100
+x = "Ingresar gasto:"
+y = "Dinero recibido"
+z = pago - gasto_persona
+l = str(z).split('.')[1]
+print(x)
+print(gasto_persona)
+print(y)
+print(pago)
+print("\n")
+print("Vuelto")
+print("\n")
+print("Pesos:")
+print(z)
+print("Centavos:")
+print(l)
